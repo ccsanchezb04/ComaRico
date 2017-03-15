@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ComaRico - Menú</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="../public/images/favicon.png"/>
+	<link rel="stylesheet" href="../public/css/materialize.css">
+	<link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+			    <div class="nav-wrapper brown darken-2">
+			      	<a href="../index.html" class="brand-logo right">
+			      		<img src="../public/images/logo2.png" id="logo_principal" alt="ComaRico - Gourmet" class="responsive-img">
+			      	</a>
+			      	<ul id="nav-mobile" class="left hide-on-med-and-down">
+			        	<li>
+			        		<a href="../index.html">
+			        			<i class="large material-icons">home</i>
+			        		</a>
+			        	</li>
+			        	<li class="active">
+			        		<a href="menu.html">Menú</a>
+			        	</li>
+			        	<li id="reservas">
+			        		<a href="#modal1">Reservas</a>
+			        	</li>
+			      	</ul>
+			    </div>
+			</nav>
+		</header>
+		<div class="row" id="contenido">
+			<div class="col m4">
+				<h3 class="white-text center-align">Menú&nbsp;<i class="small material-icons">apps</i></h3>
+			</div>
+			<div class="col m8">				
+				<p class="white-text" id="texto-menu">Poseemos el menú gourmet mas variado de la ciudad. Los mejores chefs se encuentran en nuestra cocina preparando platillos que deslumbraran tu paladar.</p>
+			</div>
+			<div class="col m12">			
+				<ul class="collapsible" data-collapsible="accordion">
+				    <li>
+				      	<div class="collapsible-header"><i class="material-icons">filter_1</i>Entradas</div>
+				      	<div class="collapsible-body brown darken-2">
+				      		<div class="row">
+					      		<div class="col m4">
+									<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/cesar.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Ensalada Cesar</span>
+							              	<p>Es una ensalada de lechuga romana, trocitos de pan tostado aliñados y queso parmesano. También se le pude agregar pollo.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="15000" id="entrada_1" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+								</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/champiniones.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Champiñones Rellenos</span>
+							              	<p>Es una receta muy saludable y nutritiva, gracias a que los ingredientes con que se prepara son verduras frescas.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="18000" id="entrada_2" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/comida4.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Carpaccio de Res</span>
+							              	<p>Esta receta tiene una elaboración muy sencilla y se destaca por los sabores fuertes. Perfecta para acompañar con una copa de vino.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="20000" id="entrada_3" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    </div>
+				      	</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header"><i class="material-icons">filter_2</i>Platos Fuertes</div>
+				      	<div class="collapsible-body brown darken-2">
+				      		<div class="row">
+					      		<div class="col m4">
+									<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/solomo.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Solomo de Res</span>
+							              	<p>Esta receta tiene una elaboración muy sencilla y se destaca por los sabores fuertes. Perfecta para acompañar con una copa de vino.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="30000" id="pf_1" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+								</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/comida1.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Costillas BBQ</span>
+							              	<p>Suaves y jugosos trozos de carne, bañadas en una deliciosa salsa BBQ endulzada, que podemos disfrutar al puro estilo campirano.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="25000" id="pf_2" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/anca.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Punta de Anca</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="36000" id="pf_3" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/churrasco.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Churrasco</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="40000" id="pf_4" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/salmon.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Salmón</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="30000" id="pf_5" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    </div>
+				      	</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header"><i class="material-icons">filter_3</i>Postres</div>
+				      	<div class="collapsible-body brown darken-2">
+				      		<div class="row">
+					      		<div class="col m4">
+									<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/tiramisu.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Tiramisu</span>
+							              	<p>Esta receta tiene una elaboración muy sencilla y se destaca por los sabores fuertes. Perfecta para acompañar con una copa de vino.</p>	
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="10000" id="postre_1" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+								</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/cheesecake.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Cheesecake</span>
+							              	<p>Suaves y jugosos trozos de carne, bañadas en una deliciosa salsa BBQ endulzada, que podemos disfrutar al puro estilo campirano.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="11000" id="postre_2" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/maracuya.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Postre de Maracuya</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="15000" id="postre_3" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/comida2.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Mousse de Limón</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="8000" id="postre_4" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    </div>
+				      	</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header"><i class="material-icons">filter_4</i>Bebidas</div>
+				      	<div class="collapsible-body brown darken-2">
+				      		<div class="row">
+					      		<div class="col m4">
+									<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/limonada.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Limonada Natural</span>
+							              	<p>Esta receta tiene una elaboración muy sencilla y se destaca por los sabores fuertes. Perfecta para acompañar con una copa de vino.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="6000" id="bebida_1" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+								</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/juagua.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Jugos en Agua</span>
+							              	<p>Suaves y jugosos trozos de carne, bañadas en una deliciosa salsa BBQ endulzada, que podemos disfrutar al puro estilo campirano.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="8000" id="bebida_2" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/juleche.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Jugos en Leche</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="5000" id="bebida_3" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+									<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/te.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Té</span>
+							              	<p>Esta receta tiene una elaboración muy sencilla y se destaca por los sabores fuertes. Perfecta para acompañar con una copa de vino.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="6000" id="bebida_4" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+								</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/gaseosa.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Gaseosa</span>
+							              	<p>Suaves y jugosos trozos de carne, bañadas en una deliciosa salsa BBQ endulzada, que podemos disfrutar al puro estilo campirano.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="6000" id="bebida_5" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/cerveza.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Cerveza</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="7000" id="bebida_6" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/vino.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Vino Tinto (Copa)</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="5000" id="bebida_7" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    </div>
+				      	</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header"><i class="material-icons">filter_5</i>Adicionales</div>
+				      	<div class="collapsible-body brown darken-2">
+				      		<div class="row">
+					      		<div class="col m4">
+									<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/papas.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Carpaccio de Res</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Papas a la Francesa</span>
+							              	<p>Esta receta tiene una elaboración muy sencilla y se destaca por los sabores fuertes. Perfecta para acompañar con una copa de vino.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="4000" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>							            
+							        </div>
+								</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/tocineta.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Tocineta</span>
+							              	<p>Suaves y jugosos trozos de carne, bañadas en una deliciosa salsa BBQ endulzada, que podemos disfrutar al puro estilo campirano.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="6000" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    	<div class="col m4">
+						    		<div class="card">
+							            <div class="card-image">
+							              	<img src="../public/images/queso.jpg" class="responsive-img">
+							              	<!-- <span class="card-title">Card Title</span> -->
+							            </div>
+							            <div class="card-content">
+							            	<span class="card-title">Queso Parmesano</span>
+							              	<p>Es un delicioso postre que combina la acidez del limón con el dulzor de los otros ingredientes, lo que hacen que tenga un sabor muy agradable.</p>
+							            </div>
+							            <div class="card-action">
+							              	<a class="waves-effect waves-light btn brown darken-2 agregar_plato" data-precio="12000" href="#modal1"><i class="material-icons left">add</i>Agregar</a>
+							            </div>
+							        </div>
+						    	</div>
+						    </div>
+				      	</div>
+				    </li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+	<div id="modal1" class="modal">
+	    <div class="modal-content">
+	    	<div class="row">
+			    <div class="col s12">
+				    <ul class="tabs">
+				   		<li class="tab col s3"><a href="#formulario">Comensal</a></li>
+				   		<li class="tab col s3"><a class="active" href="#pedido">Pedido</a></li>				   		
+				    </ul>
+			    </div>
+			    <div id="formulario" class="col s12">
+			    	<div class="row">
+					    <form class="col s12">
+					      	<div class="row">
+					      		<div class="input-field col s6">
+						          	<i class="material-icons prefix">perm_identity</i>
+						          	<input id="icon_prefix" type="text" class="validate">
+						          	<label for="icon_prefix">Cedula</label>
+					        	</div>
+						        <div class="input-field col s6">
+						          	<i class="material-icons prefix">account_circle</i>
+						          	<input id="icon_prefix" type="text" class="validate nombresComensal">
+						          	<label for="icon_prefix">Nombres</label>
+					        	</div>
+					        	<div class="input-field col s6">
+						          	<i class="material-icons prefix">account_circle</i>
+						          	<input id="icon_prefix" type="text" class="validate apellidosComensal">
+						          	<label for="icon_prefix">Apellidos</label>
+					        	</div>
+					        	<div class="input-field col s6">
+						          	<i class="material-icons prefix">perm_contact_calendar</i>
+						          	<input id="icon_birthdate" type="date" class="datepicker validate">
+						          	<label for="icon_birthdate">Fecha de Nacimiento</label>
+						        </div>
+					        	<div class="input-field col s6">
+						          	<i class="material-icons prefix">email</i>
+						          	<input id="icon_email" type="email" class="validate">
+						          	<label for="icon_email">Correo Electronico</label>
+					        	</div>			        
+						        <div class="input-field col s6">
+						          	<i class="material-icons prefix">perm_contact_calendar</i>
+						          	<input id="icon_telephone" type="number" class="validate">
+						          	<label for="icon_telephone">Edad</label>
+						        </div>
+						        <div class="input-field col s2">
+						          	<i class="material-icons prefix">thumb_up</i>
+						          	<label for="propina">Propina</label>
+						        </div>
+						         <div class="input-field col s2">
+						          	<input class="with-gap" name="propina" type="radio" id="propina_si" value="si">
+      								<label for="propina_si">Sí</label>
+						        </div>
+						         <div class="input-field col s2">
+						          	<input class="with-gap" name="propina" type="radio" id="propina_no" value="no">
+      								<label for="propina_no">No</label>
+						        </div>						       
+					      	</div>					      
+					    </form>
+					    <button class="btn waves-effect waves-light brown darken-2" id="addComensal" name="action">Agregar Comensal
+					    	<i class="material-icons right">send</i>
+						</button>
+					</div>
+			    </div>
+			    <div id="pedido" class="col s12">
+			    	<table class="bordered responsive-table">
+				        <thead>
+				        	<tr>
+				        		<th colspan="3" class="center-align">Factura de Venta</th>
+				        	</tr>
+				        	<tr>
+				        		<th class="center-align">Cliente:</th>
+				        		<td colspan="2" id="cliente"></td>
+				        	</tr>
+					        <tr>
+					            <th data-field="id">Plato</th>
+					            <th data-field="number">Cantidad</th>
+					            <th data-field="price">Valor</th>
+					        </tr>
+				        </thead>
+				        <tbody>
+				        	<tr>
+				        		<th colspan="3">Entradas</th>
+				        	</tr>
+							<tr>
+								<td>Ensalada Cesar</td>
+								<td id="entrada_1_cantidad" class="cantidad">
+									<input type="text" disabled>
+								</td>
+								<td id="entrada_1_precio" class="precio">
+									<input type="text" disabled>
+								</td>
+							</tr>
+							<tr>
+								<td>Champiñones Rellenos</td>
+								<td id="entrada_2_cantidad" class="cantidad">
+									<input type="text" disabled>
+								</td>
+								<td class="precio" id="entrada_2_precio">
+									<input type="text" disabled>
+								</td>
+							</tr>
+							<tr>
+								<td>Carpaccio de Res</td>
+								<td id="entrada_3_cantidad" class="cantidad">
+									<input type="text" disabled>
+								</td>
+								<td class="precio" id="entrada_3_precio">
+									<input type="text" disabled>
+								</td>
+							</tr>
+				        	<tr>
+				        		<th colspan="3">Platos Fuertes</th>
+				        	</tr>
+					        <tr>
+					        	<td>Solomo de res</td>
+					        	<td id="pf_1_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id="pf_1_precio">
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Costillas BBQ</td>
+					        	<td id="pf_2_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id="pf_2_precio">
+									<input type="text" disabled>
+					        	</td>
+					        </tr>					       
+					        <tr>
+					        	<td>Punta de Anca</td>
+					        	<td id="pf_3_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id="pf_3_precio">
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Churrasco</td>
+					        	<td id="pf_4_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id="pf_4_precio">
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Salmón</td>
+					        	<td id="pf_5_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id="pf_5_precio">
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+				           	<tr>
+				        		<th colspan="3">Postres</th>
+				        	</tr>
+					        <tr>
+					          	<td>Tiramisu</td>
+					          	<td id="postre_1_cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="postre_1_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+					        <tr>
+					          	<td>Cheesecake</td>
+					          	<td id="postre_2_cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="postre_2_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+					        <tr>
+					          	<td>Postre Maracuya</td>
+					          	<td id="postre_3_cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="postre_3_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+					        <tr>
+					          	<td>Mousse Limón</td>
+					          	<td id="postre_4_cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="postre_4_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+				          	<tr>
+				        		<th colspan="3">Bebidtas</th>
+				        	</tr>
+					        <tr>
+					        	<td>Limonada natural</td>
+					        	<td id="bebida_1_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_1_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Jugos en Agua</td>
+					        	<td id="bebida_2_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_2_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Jugos en Leche</td>
+					        	<td id="bebida_3_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_3_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Té</td>
+					        	<td id="bebida_4_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_4_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Gaseosa</td>
+					        	<td id="bebida_5_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_5_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Cerveza</td>
+					        	<td id="bebida_6_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_6_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+					        <tr>
+					        	<td>Vino Tinto (Copa)</td>
+					        	<td id="bebida_7_cantidad" class="cantidad">
+					        		<input type="text" disabled>
+					        	</td>
+					        	<td class="precio" id=bebida_7_precio>
+									<input type="text" disabled>
+					        	</td>
+					        </tr>
+				          	<tr>
+				        		<th colspan="3">Adicionales</th>
+				        	</tr>
+					        <tr>
+					          	<td>Papas a la Francesa</td>
+					          	<td id="adicional__cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="adicional_1_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+					        <tr>
+					          	<td>Tocineta</td>
+					          	<td id="adicional__cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="adicional_2_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+					        <tr>
+					          	<td>Queso Parmesano</td>
+					          	<td id="adicional__cantidad" class="cantidad">
+					          		<input type="text" disabled>
+					          	</td>
+					          	<td class="precio" id="adicional_3_precio">
+									<input type="text" disabled>
+					          	</td>
+					        </tr>
+				        </tbody>
+				        <tfoot>
+				        	<tr id="propina_fact">
+				        		<td class="center-align">Propina</td>
+				        		<td id="propina_si_no"></td>
+				        		<td id="propina_valor"></td>
+				        	</tr>
+				        	<tr id="iva">
+				        		<td class="center-align" colspan="2">IVA</td>				        		
+				        		<td id="iva_valor"></td>
+				        	</tr>
+				        	<tr>
+				        		<td class="center-align" colspan="2">Total</td>
+				        		<td id="total" class="red-text text-darken-2"></td>
+				        	</tr>
+				        	<tr>
+				        		<td colspan="3">
+				        			<button class="btn waves-effect waves-light brown darken-2 modal-close" id="addComensal" name="action">Seguir con el Pedido
+								    	<i class="material-icons right">shopping_cart</i>
+									</button>
+				        		</td>
+				        	</tr>
+				        </tfoot>
+				    </table>
+			    </div>
+			</div>
+	    </div>
+	    <!-- <div class="modal-footer">
+	      	<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+	    </div> -->
+	</div>
+	<script src="../public/js/jquery-3.1.1.min.js"></script>	
+	<script src="../public/js/main.js"></script>	
+	<script src="../public/js/materialize.js"></script>	
+	<script>
+		$(document).ready(function() {
+			// Inicialización Complementos de Materialize
+			$('.carousel.carousel-slider').carousel({
+				fullWidth: true,
+				duration: '300'
+			});
+			$('.carousel.carousel-slider').click(function(event) {
+				/* Act on the event */
+				$(this).carousel('next');
+			});
+			$('.modal').modal();
+			$('.collapsible').collapsible();
+			$('ul.tabs').tabs();
+			$('select').material_select();
+			$('.datepicker').pickadate({
+			    selectMonths: true, // Creates a dropdown to control month
+			    selectYears: 30 // Creates a dropdown of 15 years to control year
+			});
+		});
+	</script>
+</body>
+</html>

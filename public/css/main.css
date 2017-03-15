@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+body {	
+	background: url('../images/fondo1.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+h3,h4{ padding: 10px; }
+.container {
+	background: #bbaea2;
+	/*border: 1px solid red;*/
+}
+header { margin-top: 30px; }
+header #logo_principal {
+	width: 280px;
+	position: relative;
+	top: -10px;
+	z-index: 200;
+}
+#reservas { display: none; }
+#contenido { padding: 10px; }
+.card-title { font-weight: bold !important;  }
+.card-content { height: 14rem; }
+.card-action { 
+	display: flex;
+    justify-content: center;
+}
+#texto-menu {
+	font-size: 20px;
+	text-align: justify;
+}
+.cantidad input, .precio input { text-align: center; }
+.cantidad input[type=text]:disabled, .cantidad input[type=text][readonly="readonly"] , 
+.precio input[type=text]:disabled, .precio input[type=text][readonly="readonly"] {
+    color: #000;
+    border-bottom: none !important; 
+}
+.cantidad input[type=text], .precio input[type=text] {
+     height: 1rem !important; 
+     margin: 0 !important; 
+}
+#total { 
+	font-style: bold; 
+	font-size: 24px;
+}
